@@ -44,7 +44,7 @@ function playRound(playerSelection, computerSelection) {
     }
 } 
 
-const playerSelection = "scissors";
+const playerSelection = prompt("chose beetwen: ['rock', 'paper', 'scissors']");
 const computerSelection = getComputerChoice();
 
 
